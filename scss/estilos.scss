@@ -14,7 +14,12 @@ li{
     list-style-type: none;
 }
 body{
-    background-color: #8FBC8F;
+    background-color: #aae4a6;
+    /* background-image: url('../img/juli1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    //backdrop-filter: blur(3px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +27,6 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 h1{
-    color: #fff;
+    color: #ffffff;
     font-size: 6rem;
 }
