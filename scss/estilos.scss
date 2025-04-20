@@ -28,6 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 0 2em;
+    overflow-x: hidden;
     .h1{
         position: relative;
         font-family: sans-serif;
