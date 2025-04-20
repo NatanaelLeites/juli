@@ -24,7 +24,7 @@ body{
     background-repeat: no-repeat;
 }
 .header{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     padding: 0 2em;
@@ -37,22 +37,14 @@ body{
         line-height: 4.0;
     }
 }
-.hero{
-    width: calc(100vw - 4em);
-    height: 100%;
-    margin: 0 auto;
-    border-radius: 20px;
-    border: solid 2px #000;
-}
+
 .countdown{
     display: flex;
     justify-content: space-around;
     text-align: center;
     width: 100vw;
-    //color: #989898;
     color: #aae4a6;
     padding: 1em;
-    //background-color: #00000059;
     font-family: "Montserrat", sans-serif;
     span{
         text-shadow: 0px 0px 2px black;
@@ -82,7 +74,6 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 10000;
-    //color: #989898;
     color: #bdf8b9;
     padding: 0.2em 0.4em;
     padding: 1em;
