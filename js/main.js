@@ -40,7 +40,7 @@ gsap.from(".h1", 1.5, {
   ease: "power4.inOut"
 })
 gsap.from(".hero", 2, {
-  delay: 4.5,
+  delay: 3.8,
   y: 400,
   ease: "power4.inOut"
 })

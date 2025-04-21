@@ -1,0 +1,26 @@
+.counter{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    color: $color-acento;
+    padding: 0.2em 0.4em;
+    padding: 1em;
+    font-size: 30vw;
+    font-family: "Montserrat", sans-serif;
+}
+.overlay{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    .bar{
+        width: 20vw;
+        height: 105vh;
+        background-color: #cfcfcf;
+    }
+}
