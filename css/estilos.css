@@ -12,6 +12,7 @@
   color: #529d4c;
   padding: 1em;
   font-family: "Montserrat", sans-serif;
+  backdrop-filter: sepia(80%);
 }
 .hero .countdown span {
   text-shadow: 0px 0px 2px black;

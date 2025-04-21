@@ -1,3 +1,10 @@
+/* control de scroll inicial */
+if (window.history.replaceState) {
+  window.history.replaceState(null, null, window.location.href);
+}
+window.onload = function() {
+  window.scrollTo(0, 0);
+};
 function startLoader() {
   let counterElement = document.querySelector(".counter");
   let currentValue = 0;
